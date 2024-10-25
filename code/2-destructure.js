@@ -19,9 +19,13 @@ const { mamma, ige } = user;
 
 // Task 3: Print `firstName`, `lastName`, `name`, and `age` using console.log.
 console.log(firstName, lastName, user.name, user.age);
+
 // Task 4: Write a function called `getFullName` that takes an object with properties
 // `firstName` and `lastName`, and returns a string that combines them in the format
 // "FirstName LastName". The function has to use destructuring.
+function getFullName({ firstName, lastName }) {
+  return `${firstName} ${lastName}`;
+}
 
 // Task 5: Call the `getFullName` function with the `person` object and print
 // the result using console.log.
@@ -29,3 +33,4 @@ const person = {
   firstName: "Jane",
   lastName: "Smith",
 };
+console.log(getFullName(person));
