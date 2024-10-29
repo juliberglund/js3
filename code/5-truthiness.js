@@ -31,16 +31,14 @@ values.forEach((value) => checkTruthiness(value));
 // Task 4. Loop through the `values` array using a for-loop and call `checkTruthiness` on each value.
 console.log("ForLoop");
 for (let index = 0; index < values.length; index++) {
-  const element = values[index];
-  console.log(element);
+  checkTruthiness(values[index]);
 }
 
 // Task 5. Loop through the `values` array using a while-loop and call `checkTruthiness` on each value.
 console.log("WhileLoop:");
 let index = 0;
 while (index < values.length) {
-  const element = values[index];
+  checkTruthiness(values[index]);
 
-  console.log(element);
   index++;
 }

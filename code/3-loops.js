@@ -31,7 +31,7 @@ console.log(lowest);
 const nbrArray = [6, 8, 9, 4, 3];
 let low = nbrArray[0];
 function getLowest(nbrArray) {
-  for (let i = 1; i < nbrArray.length; i++) {
+  for (let i = 0; i < nbrArray.length; i++) {
     if (nbrArray[i] < low) {
       low = nbrArray[i];
     }

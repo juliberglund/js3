@@ -15,8 +15,6 @@ const user = {
   age: 25,
 };
 
-const { mamma, ige } = user;
-
 // Task 3: Print `firstName`, `lastName`, `name`, and `age` using console.log.
 console.log(firstName, lastName, user.name, user.age);
 
